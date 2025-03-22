@@ -1,6 +1,6 @@
 {
-"name": "@mirzaeework/ui-kit",
-  "version": "1.0.0",
+  "name": "@mirzaeework/ui-kit",
+  "version": "1.0.1",
   "type": "module",
   "main": "src/components/index.jsx",
   "module": "src/components/index.jsx",
