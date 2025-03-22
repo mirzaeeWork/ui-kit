@@ -1,6 +1,6 @@
 import React from 'react'
 
-function CustomButton({ className = '', children, ...rest }) {
+function ButtonUiKit({ className = '', children, ...rest }) {
   return (
     <button
       className={`${className}`}
@@ -11,4 +11,4 @@ function CustomButton({ className = '', children, ...rest }) {
   )
 }
 
-export default CustomButton
+export default ButtonUiKit

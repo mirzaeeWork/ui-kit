@@ -1,17 +1,17 @@
 import '@testing-library/jest-dom';
 import { render, fireEvent } from '@testing-library/react';
 import { expect, test, vi } from 'vitest';
-import CustomButton from './CustomButton';
+import ButtonUiKit from './ButtonUiKit';
 
 test('renders button with text, handles click, and supports additional props', () => {
   const handleClick = vi.fn(); // تابع ماک‌شده برای بررسی کلیک
   const { getByRole } = render(
-    <CustomButton
+    <ButtonUiKit
       onClick={handleClick}
       data-testid="custom-button"
     >
       Click me
-    </CustomButton>
+    </ButtonUiKit>
   );
 
   const button = getByRole('button', { name: /Click me/i });
