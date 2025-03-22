@@ -1,7 +1,19 @@
 {
-  "name": "ui-kit",
-  "version": "0.0.0",
+  "name": "@mirzaeeWork/ui-kit",
+  "version": "1.0.0",
   "type": "module",
+  "main": "src/components/index.jsx",
+  "module": "src/components/index.jsx",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mirzaeeWork/ui-kit.git"
+  },
+  "author": "samane mirzaee",
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@mirzaeeWork"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",

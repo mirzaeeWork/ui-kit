@@ -1,10 +1,10 @@
-import CustomButton from "./components/Buttons/CustomButton";
+import { ButtonUiKit } from "./components";
 
 function App() {
   return (
     <>
-      <h1>My App</h1>
-      <CustomButton>click me</CustomButton>
+      <h1>My App:cutom Button</h1>
+      <ButtonUiKit>click me</ButtonUiKit>
     </>
   );
 }
